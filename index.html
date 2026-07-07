@@ -14,8 +14,24 @@
       <h2>Paris × London</h2>
       <p class="subtitle">Every journey begins with a single step</p>
       <p class="subtitle">August 4–15, 2026</p>
-      <a class="enter" href="trip.html">Start Journey</a>
+      <a class="enter" href="#" id="startJourney">Start Journey</a>
     </div>
   </header>
+
+  <div class="gate hidden" id="gate">
+    <div class="gate-card">
+      <button class="gate-close" id="gateClose">×</button>
+      <div class="eyebrow" style="color:#6f7785">Private Journey</div>
+      <h2>Enter Password</h2>
+      <p>Unlock TripFlow to continue to your itinerary.</p>
+      <div class="password-box">
+        <input id="journeyPassword" type="password" placeholder="Password">
+        <button id="journeyUnlock">Unlock</button>
+      </div>
+      <p class="error-message" id="journeyError"></p>
+    </div>
+  </div>
+
+  <script src="js/gate.js"></script>
 </body>
 </html>

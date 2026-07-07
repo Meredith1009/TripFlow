@@ -26,3 +26,20 @@ Open `index.html` in a browser.
 - Added `.nojekyll` for GitHub Pages.
 - Added deployment notes.
 - This is the recommended version for GitHub Pages upload.
+
+## v1.5 Travel Vault
+- Added `vault.html`.
+- Added password unlock UI.
+- Default password: `tripflow2026`.
+- Password can be changed in `js/vault.js`.
+
+Security note: this is a front-end password for casual privacy only. Do not store highly sensitive documents directly in a public repository.
+
+## v2.0
+- Added password gate on the cover page.
+- Start Journey now opens a password modal.
+- Password: ICAZM
+- Correct password leads to `trip.html`.
+
+
+v2.1: Removed Vault. Password updated.
