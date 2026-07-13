@@ -327,3 +327,5 @@ nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:
 .hidden{
   display:none !important;
 }
+
+.terminal-info{margin:14px 0 0;padding-top:14px;border-top:1px solid var(--line);color:var(--blue);font-weight:800;line-height:1.55}
